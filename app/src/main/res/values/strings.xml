@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">知乎日报</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="text_splash">知乎日报</string>
+    <string name="loading">加载中</string>
+    <string name="comment">评论</string>
+    <string name="view_comment">查看评论</string>
+    <string name="about">关于</string>
+    <string name="refresh_finish">刷新成功</string>
+    <string name="share">分享</string>
+    <string name="share_via">分享自知乎日报</string>
+    <string name="share_to">分享至</string>
+
+    <string name="homepage">主页</string>
+    <string name="topics">主题日报</string>
+    <string name="hotnews">热门消息</string>
+    <string name="settings">设置</string>
+    <string name="theme">切换主题</string>
+    <string name="star">收藏</string>
+
+    <string name="hide_fab">com.example.su.zhihuribao.UI.Custom.ScrollAwareFABBehavior</string>
+</resources>
