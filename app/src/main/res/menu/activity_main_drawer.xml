@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/ic_home_white_48dp"
+            android:title="@string/homepage"/>
+        <item
+            android:id="@+id/topics"
+            android:icon="@drawable/ic_list_white_48dp"
+            android:title="@string/topics"/>
+        <item
+            android:id="@+id/hotnews"
+            android:icon="@drawable/ic_whatshot_white_48dp"
+            android:title="@string/hotnews"/>
+        <item
+            android:id="@+id/star"
+            android:icon="@drawable/ic_star_white_48dp"
+            android:title="@string/star"/>
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/theme"
+                android:icon="@drawable/ic_color_lens_white_48dp"
+                android:title="@string/theme"/>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings_white_48dp"
+                android:title="@string/settings"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_person_white_48dp"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="AppTheme.FullScreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="DayTheme" parent="AppTheme.NoActionBar">
+        <item name="TextColor">@color/day_text</item>
+        <item name="BackgroundColor">@color/day_background</item>
+        <item name="ToolbarColor">@color/colorPrimary</item>
+        <item name="FabColor">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="NightTheme" parent="AppTheme.NoActionBar">
+        <item name="TextColor">@color/night_text</item>
+        <item name="BackgroundColor">@color/night_background</item>
+        <item name="ToolbarColor">@color/night_toolbar</item>
+        <item name="FabColor">@color/night_toolbar</item>
+        <item name="colorPrimary">@color/night_toolbar</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="TextColor" format="color|reference" />
+    <attr name="BackgroundColor" format="color|reference" />
+    <attr name="ToolbarColor" format="color|reference" />
+    <attr name="FabColor" format="color|reference" />
+
+</resources>
